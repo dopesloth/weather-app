@@ -1,0 +1,79 @@
+body {
+  --bs-body-font-family: "Oxygen", sans-serif;
+  --bs-body-bg: #e3f6f5;
+}
+
+.card {
+  max-width: 800px;
+  margin: 100px auto 0px;
+  padding-left: 20px;
+  --bs-card-bg: #bae8e8;
+  --bs-card-color: #272343;
+  --bs-card-border-color: transparent;
+}
+
+.date {
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: right;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+#city {
+  background-color: #e4f1fe;
+  position: left;
+  width: 250px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 8px 8px 0px rgba(69, 41, 28, 0.08);
+  font-weight: thin;
+  background-color: #22313f;
+  color: white;
+  border-color: transparent;
+}
+
+.submit-button:hover {
+  background-color: #e3f6f5;
+  color: #22313f;
+}
+
+.current-weather {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.current-city {
+  font-size: 50px;
+}
+
+hr {
+  background-color: red;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
